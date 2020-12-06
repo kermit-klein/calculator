@@ -1,6 +1,6 @@
 const { calculate, parse } = require("../parsingCalculator.js");
 const exprGen = require("./expressionGenerator.js");
-const calcString = require("../basicCalculator.js");
+const calcString = require("../iteratorCalculator.js");
 const Benchmark = require("benchmark");
 const fs = require("fs");
 
